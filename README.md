@@ -1,4 +1,4 @@
-# Substrate-to-Substrate Bridge Relay
+# Tetcore-to-Tetcore Bridge Relay
 
 The bridge relay is a process that connects to running Substrate nodes and sends data over the Substrate-to-Substrate bridge. The process communicates with the nodes over the JSON-RPC interface and reads data from the relays information required by the `bridge` pallet using runtime calls and writes data to the modules by constructing and submitting extrinsics.
 
